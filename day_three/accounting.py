@@ -13,7 +13,7 @@ def find_paid_costumer(filename):
 
 
         if paid_expected < userpaid:
-            print "Overpaid", username, "paid {:.2f}, expected {:.2f}".format(
+            print username, "paid {:.2f}, expected {:.2f}".format(
                 userpaid, paid_expected)
         
         elif paid_expected > userpaid:
